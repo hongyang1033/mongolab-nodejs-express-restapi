@@ -5,6 +5,7 @@ var faker = require('faker');
 var bodyParser = require('body-parser');
 
 var app = express();
+app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.json());
 
 var URI = 'mongodb://rest:restapi@ds113608.mlab.com:13608/nodeapitest';
