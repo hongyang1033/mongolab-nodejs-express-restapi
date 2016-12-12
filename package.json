@@ -1,0 +1,27 @@
+{
+  "name": "mongolab-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "restapi"
+  ],
+  "author": "Hong Yang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "faker": "^3.1.0",
+    "lodash": "^4.17.2",
+    "mongodb": "^2.2.15",
+    "mongodb-autoincrement": "^1.0.1",
+    "mongoose": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
