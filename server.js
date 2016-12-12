@@ -9,6 +9,10 @@ app.use(bodyParser.json());
 
 var URI = 'mongodb://rest:restapi@ds113608.mlab.com:13608/nodeapitest';
 
+app.get('/', function(req, res) {
+   res.send("Please use api/endpoints to access"); 
+});
+
 app.get('/api/posts', function(req, res) {
   mongoClient.connect(URI, function(err, db) {
     if(err)
