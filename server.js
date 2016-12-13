@@ -10,7 +10,6 @@ app.use(bodyParser.json());
 var URI = 'mongodb://rest:restapi@ds113608.mlab.com:13608/nodeapitest';
 
 app.get('/', function(req, res) {
-   res.set('Content-Type','text/plain');
    res.send("Please use api/endpoints to access"); 
 });
 
