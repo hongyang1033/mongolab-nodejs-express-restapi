@@ -1,7 +1,6 @@
 var express = require('express');
 var mongoClient = require('mongodb').MongoClient;
 var autoIncrement = require('mongodb-autoincrement');
-var faker = require('faker');
 var bodyParser = require('body-parser');
 
 var app = express();
