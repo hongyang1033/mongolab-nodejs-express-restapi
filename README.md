@@ -3,3 +3,9 @@ Install the dependencies by:
 
 Run the app by:
     $ node server.js
+    
+Try the API at:
+    https://mongolab-rest-api.herokuapp.com/api/posts
+
+For Individual post:
+    https://mongolab-rest-api.herokuapp.com/api/posts/:id
